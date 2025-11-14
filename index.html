@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="full-width">
         <!-- TODO: Find/make a site icon -->
         <img class="site-icon" src="" alt="Site Icon">
         <label for="navbar-button">
@@ -30,13 +30,19 @@
         </nav>
     </header>
     <main>
+        <img id="hero-img" src="static/hero_480.png" class="full-width" loading="lazy" width="480" height="240" srcset="
+            static/hero_480.png   480w,
+            static/hero_960.png   960w,
+            static/hero_1920.png  1920w
+        "
+        sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1920px) 1920px"
+        alt="Big ball of fire called 'the sun'" />
         <h1 class="sixtyfour">The deadly beauty<wbr> of the sun</h1>
-        <img src="static/images/" alt="Big ball of fire called 'the sun'">
         <p>Lorem ipsum dolar</p>
         <!-- TODO: Just no -->
         <p>Fuckin yeah the sun is a deadly laser man, uhhh big ol solar flares and the corona is like a giant plasma ball that can fry your skin if you're not careful.</p>
     </main>
-    <footer>
+    <footer class="full-width">
         <span>
             <p>The deadly beauty of the sun © 2025</p>
             <p>By Alexander</p>
