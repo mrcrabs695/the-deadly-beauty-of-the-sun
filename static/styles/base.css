@@ -86,6 +86,7 @@ nav * {
     }
     #navbar-img {
         display: block;
+        filter:invert();
     }
     #site-navbar .navbutton {
         text-align: center;
