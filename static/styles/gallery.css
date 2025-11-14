@@ -24,15 +24,35 @@ html {
     }
 }
 
-.img-grid img {
+.image-card {
+    width: fit-content;
+    transition: all 0.1s ease;
+    contain: content;
+}
+.image-card img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transition: all 0.1s ease;
+}
+.image-card a {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.452);
+    bottom: 6px;
+    left: 4px;
+    width: fit-content;
+    z-index: 2;
+    padding: 5px;
+    color:white;
+    font-family: "Sixtyfour", sans-serif;
+    font-size: calc(0.8em + 0.1vw);
+}
+.image-card:hover a {
+    display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .img-grid img:hover {
-    transform: scale(1.10, 1.10);
-}
+@media only screen and (max-width: 600px) {
+    .image-card a {
+        display: block;
+    }
 }

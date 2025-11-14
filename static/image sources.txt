@@ -1,10 +1,10 @@
 Images from NASA
 license: https://www.nasa.gov/nasa-brand-center/images-and-media/
 
-hero:
+hero:   https://images.nasa.gov/details/GSFC_20171208_Archive_e001661
 grid 1: https://images.nasa.gov/details/GSFC_20171208_Archive_e002082
-grid 2: https://www.nasa.gov/nasa-brand-center/images-and-media/
-grid 3: https://www.nasa.gov/nasa-brand-center/images-and-media/
+grid 2: https://images.nasa.gov/details/GSFC_20171208_Archive_e000838
+grid 3: https://images.nasa.gov/details/PIA18906
 
 Image by David Becker: https://unsplash.com/@beckerworks
 license: https://unsplash.com/license
