@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- XML declaration specifying version and character encoding -->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <!-- Root element for sitemap URLs with standard sitemap namespace -->
+
+  <!-- TODO: Replace example.com with actual url when the site is up -->
+  <url> <!-- Define a URL entry (homepage) -->
+    <loc>https://example.com/</loc> <!-- URL location (homepage) -->
+    <lastmod>2025-11-25</lastmod> <!-- Last modified date for this URL -->
+    <changefreq>weekly</changefreq> <!-- Suggest search engines to crawl this weekly -->
+    <priority>1.0</priority> <!-- Highest priority in sitemap -->
+  </url> <!-- End of homepage entry -->
+
+  <url> <!-- Define about page URL -->
+    <loc>https://example.com/about.html</loc> <!-- About page URL -->
+    <lastmod>2025-11-25</lastmod> <!-- Last updated date -->
+    <changefreq>monthly</changefreq> <!-- Crawling frequency suggestion -->
+    <priority>0.8</priority> <!-- Medium-high priority -->
+  </url> <!-- End of about page -->
+
+  <url> <!-- Gallery page URL -->
+    <loc>https://example.com/gallery.html</loc> <!-- URL location -->
+    <lastmod>2025-11-25</lastmod> <!-- Last modified -->
+    <changefreq>weekly</changefreq> <!-- Weekly updates suggested -->
+    <priority>0.9</priority> <!-- High priority -->
+  </url> <!-- End gallery URL entry -->
+
+  <url> <!-- Contact page URL -->
+    <loc>https://example.com/contact.html</loc> <!-- Contact page URL -->
+    <lastmod>2025-11-25</lastmod> <!-- Last modified date -->
+    <changefreq>yearly</changefreq> <!-- Rarely updated so yearly suggested -->
+    <priority>0.5</priority> <!-- Lower priority relative to other pages -->
+  </url> <!-- End contact page URL -->
+
+</urlset> <!-- End sitemap root -->

@@ -1,0 +1,102 @@
+p, a {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sixtyfour {
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-break: loose;
+}
+
+
+#navbar-button,
+#navbar-img {
+    display: none;
+}
+
+header {
+    background-color: antiquewhite;
+    width: 100vw;
+    margin: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav * {
+    margin: 2px 5px;
+}
+.navbutton {
+    text-decoration: none;
+    color: darkslategrey;
+    transition: all 0.1s ease;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.navbutton:hover {
+    transform: translateY(-2px);
+    background-color: azure;
+}
+.navbutton:active {
+    transform: scale(1.2, 1.2);
+    background-color: rgb(253, 246, 206);
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar-button:not(:checked) + #site-navbar {
+        display: none;
+    }
+    #site-navbar {
+        flex-direction: column;
+    }
+    #navbar-img {
+        display: block;
+    }
+    #site-navbar .navbutton {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    margin: 0px;
+    margin-top: 10px;
+    position: relative;
+    right: 8px;
+}
+footer span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    width: fit-content;
+}
+footer span * {
+    color: whitesmoke;
+    place-self: center center;
+    margin: 10px;
+}
