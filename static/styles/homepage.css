@@ -1,0 +1,24 @@
+#hero-img {
+    height:60vh;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.page-title {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+    #hero-img {
+        height: 100vw;
+        z-index: -1;
+    }
+    .page-title {
+        margin-bottom: 100px;
+        top: 20vw;
+    }
+}

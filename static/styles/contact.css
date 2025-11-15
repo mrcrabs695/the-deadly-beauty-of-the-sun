@@ -1,0 +1,62 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    width:fit-content;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.527);
+}
+.contact-form div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    place-self: center;
+    margin: 10px;
+    width: calc(50rem + 10vw);
+}
+.contact-form div textarea {
+    height: 20vh;
+}
+.contact-form .form-actions {
+    flex-direction: row;
+}
+.contact-form .form-actions button {
+    flex-grow: 1;
+    height: 2rem;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.1s ease;
+}
+.contact-form .form-actions button:active {
+    transform: scale(1.05, 1.05);
+}
+
+.submit-button {
+    background-color: aquamarine;
+}
+.submit-button:hover {
+    background-color: rgb(97, 249, 199);
+}
+.submit-button:active {
+    background-color: rgb(46, 249, 181);
+}
+
+input, textarea {
+    border-radius: 4px;
+    border: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-form div {
+        width: 100%;
+    }
+    input, textarea {
+        font-size: 1.5rem;
+    }
+    textarea {
+        width: 100%;
+    }
+}

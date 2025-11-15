@@ -2,6 +2,10 @@ html {
     background-image: linear-gradient(whitesmoke, darkblue);
 }
 
+header {
+    background-color: unset;
+}
+
 .img-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

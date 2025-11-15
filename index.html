@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <title>The deadly beauty of the sun</title>
@@ -12,12 +13,14 @@
     <!-- External assets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="full-width">
-        <!-- TODO: Find/make a site icon -->
-        <img class="site-icon" src="" alt="Site Icon">
+        <img class="site-icon" src="static/icon_small.png" alt="Site Icon" width="64">
         <label for="navbar-button">
             <img src="static/hamburber.svg" alt="Navbar Toggle" id="navbar-img">
         </label>
@@ -30,17 +33,20 @@
         </nav>
     </header>
     <main>
+        <h1 class="sixtyfour page-title">The deadly beauty<wbr> of the sun</h1>
         <img id="hero-img" src="static/hero_480.png" class="full-width" loading="lazy" width="480" height="240" srcset="
             static/hero_480.png   480w,
             static/hero_960.png   960w,
             static/hero_1920.png  1920w
-        "
-        sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1920px) 1920px"
-        alt="Big ball of fire called 'the sun'" />
-        <h1 class="sixtyfour">The deadly beauty<wbr> of the sun</h1>
-        <p>Lorem ipsum dolar</p>
-        <!-- TODO: Just no -->
-        <p>Fuckin yeah the sun is a deadly laser man, uhhh big ol solar flares and the corona is like a giant plasma ball that can fry your skin if you're not careful.</p>
+        " sizes="(max-width: 480px) 480px, (max-width: 960px) 960px, (max-width: 1920px) 1920px"
+            alt="Big ball of fire called 'the sun'" />
+        <blockquote>
+            <p>The Sun's gravity holds the solar system together, keeping everything - from the biggest planets to the
+                smallest particles of debris - in its orbit. The connection and interactions between the Sun and Earth drive
+                the seasons, ocean currents, weather, climate, radiation belts and auroras. Though it is special to us,
+                there are billions of stars like our Sun scattered across the Milky Way galaxy.</p>
+        </blockquote>
+        <a href="https://science.nasa.gov/sun/">- NASA, overview of the sun</a>
     </main>
     <footer class="full-width">
         <span>
@@ -50,4 +56,5 @@
         </span>
     </footer>
 </body>
+
 </html>
