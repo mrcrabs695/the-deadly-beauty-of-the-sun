@@ -7,7 +7,6 @@ p, a, label, input, textarea, button {
 
 .sixtyfour {
     font-family: "Sixtyfour", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
@@ -61,7 +60,8 @@ h3 {
 
 
 #navbar-button,
-#navbar-img {
+#navbar-img,
+#navbar-button-text {
     display: none;
 }
 
@@ -137,14 +137,14 @@ footer {
     margin: 0px;
     margin-top: 10px;
 }
-footer span {
+footer div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0px auto;
     width: fit-content;
 }
-footer span * {
+footer div * {
     color: whitesmoke;
     place-self: center center;
     margin: 10px;
