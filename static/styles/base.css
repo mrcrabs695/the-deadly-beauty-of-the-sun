@@ -2,6 +2,7 @@ p, a, label, input, textarea, button {
     font-family: "Electrolize", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: calc(1em + 0.1vw);
 }
 
 .sixtyfour {
@@ -23,6 +24,19 @@ p, a, label, input, textarea, button {
     margin-right: 0px;
 }
 
+/* Wide screen contain */
+.ws-contain {
+    max-width: 1500px;
+    overflow-wrap: break-word;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
 h1,
 h2,
 h3,
@@ -36,7 +50,13 @@ h6 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: calc(3em + 1vw);
+}
+h2 {
+    font-size: calc(2.4em + 1vw);
+}
+h3 {
+    font-size: calc(2em + 1vw);
 }
 
 
@@ -65,18 +85,23 @@ nav * {
 .navbutton {
     text-decoration: none;
     color: darkslategrey;
+    background-color: rgb(179, 255, 230);
     transition: all 0.1s ease;
     padding: 2px 5px;
     border-radius: 3px;
-    font-size: 1.3em;
+    font-size: min(calc(1.3em + 1vw), 2em);
+}
+
+nav .navbutton {
+    background-color: unset;
 }
 .navbutton:hover {
     transform: translateY(-2px);
-    background-color: azure;
+    background-color: rgb(129, 200, 176);
 }
 .navbutton:active {
     transform: scale(1.2, 1.2);
-    background-color: rgb(253, 246, 206);
+    background-color: aquamarine;
 }
 
 .site-icon {
