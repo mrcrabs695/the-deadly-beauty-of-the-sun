@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- XML declaration specifying version and character encoding -->
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <!-- Root element for sitemap URLs with standard sitemap namespace -->
+<urlset xmlns:xsi ="http://www.sitemaps.org/schemas/sitemap/0.9"> <!-- Root element for sitemap URLs with standard sitemap namespace -->
 
   <!-- TODO: Replace example.com with actual url when the site is up -->
   <url> <!-- Define a URL entry (homepage) -->
