@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <title>The deadly beauty of the sun</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A small website focused on solar photography and the effects of solar weather on our planet (auroras, solar flares, etc)." />
+    <meta name="description"
+        content="A small website focused on solar photography and the effects of solar weather on our planet (auroras, solar flares, etc)." />
     <meta name="creator" content="Alexander" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <!-- Assets -->
@@ -13,8 +15,11 @@
     <!-- External assets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Electrolize&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="full-width">
         <img class="site-icon" src="static/icon_small.png" alt="Site Icon" width="64">
@@ -31,11 +36,66 @@
     </header>
     <main>
         <h1>About</h1>
-        <p>A little bit about solar weather and astro photography</p>
-        <h2>Learn More</h2>
-        <div>
-            <a href="">Link</a>
-        </div>
+        <hr>
+        <section id="space-weather">
+            <h2 class="center">Space Weather</h2>
+            <p class="ws-contain center"><i>Space Weather</i> is a group of phenomena caused by the sun that effects
+                earth and the other bodies in the solar system within the sun's <a
+                    href="https://science.nasa.gov/heliophysics/">heliosphere</a> (driven by a constant flow of charged
+                particles called <i>solar wind</i>) in a variety of ways.
+                It's study is primarily concerned with how these phenomena affect life on earth and our technology,
+                including communication systems and power grids.</p>
+            <p class="ws-contain center">
+                The rate and intensity of space weather can vary greatly depending on the activity of the sun, which
+                increases and decreases in cycles, <i>solar cycles to be exact</i>.
+                Solar cycles are approximately 11 years long, and goes through stages of low activity (called the
+                <i>solar minimum</i>), and periods of high activity (called the <i>solar maximum</i>)
+            </p>
+            <div class="info-card-container">
+                <article class="info-card">
+                    <div class="header">
+                        <h3>Solar Flares</h3>
+                        <img src="static/gallery/Grid1.jpg" alt="The aftermath of an M-class solar flare">
+                    </div>
+                    <p>Solar flares are intense bursts of electromagnetic radiation in the suns atmosphere typically
+                        occurring in active regions and often accompanied by other eruptive solar phenomena (such as a
+                        <a href="https://science.nasa.gov/sun/solar-storms-and-flares/#coronal-mass-ejection">CME</a>)
+                    </p>
+                </article>
+                <article class="info-card">
+                    <div class="header">
+                        <h3>Auroras</h3>
+                        <img src="static/gallery/Grid4.jpg" alt="">
+                        <p>Also known as the northern lights (aurora borealis) or southern lights (aurora australis),
+                            auroras are colorful, dynamic, and often visually delicate displays of an intricate dance of
+                            particles and magnetism between the Sun and Earth called space weather. When energetic
+                            particles from space collide with atoms and molecules in the atmosphere, they can cause the
+                            colorful glow that we call auroras.</p>
+                        <p><a href="https://science.nasa.gov/sun/auroras/">NASA - Auroras</a></p>
+                    </div>
+                </article>
+                <article class="info-card">
+                    <div class="header">
+                        <h3>Solar Wind</h3>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Solar_wind_flow.gif"
+                            alt="Artist's impression of solar wind flow around Earth's magnetosphere">
+                        <p><i><a href="https://commons.wikimedia.org/wiki/File:Solar_wind_flow.gif">From wikimedia
+                                    commons</a></i></p>
+                    </div>
+                    <hr>
+                    <p>Solar wind is a constant stream of energized particles, primarily protons and electrons, that
+                        flow out of the suns uppermost layers of its atmosphere.</p>
+                </article>
+            </div>
+        </section>
+        <section id="learn-more">
+            <h2>Learn More</h2>
+            <p><a href="https://science.nasa.gov/heliophysics/" target="_blank">NASA- Heliophysics</a></p>
+            <p><a href="https://science.nasa.gov/heliophysics/science-questions/how-does-solar-variability-affect-human-society-technological-systems-and-the-habitability-of-planets/"
+                    target="_blank">NASA - How do changes in the space environment affect humanity?</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Space_weather" target="_blank">Wikipedia - Space weather</a></p>
+
+        </section>
     </main>
     <footer class="full-width">
         <span>
@@ -45,4 +105,5 @@
         </span>
     </footer>
 </body>
+
 </html>
